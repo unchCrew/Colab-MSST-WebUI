@@ -12,7 +12,7 @@ colorama
 demucs==4.0.0
 einops==0.6.1
 fastapi==0.111.0
-gradio==4.38.1
+gradio==5.31.0
 huggingface-hub>=0.23.0
 librosa==0.9.2
 lightning>=2.0.0
@@ -41,7 +41,3 @@ pydantic<2.11
 # After installing the requirements, go to site-packages folder, open "\librosa\util\utils.py" and go to line 2185
 # Change the line from "np.dtype(complex): np.dtype(np.float).type," to "np.dtype(complex): np.dtype(float).type,"\
 
-# ComfyUI requirements
-# **NOTE**: Only needed if you are launching the ComfyUI from the source code
-# pyside6
-# PySide6-Fluent-Widgets
