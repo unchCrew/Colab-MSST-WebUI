@@ -25,8 +25,8 @@ webui_config = load_configs(WEBUI_CONFIG)
 language_dict = load_configs(LANGUAGE)
 
 
-def app(platform, device, force_cpu, theme="tools/themes/theme_blue.json"):
-	with gr.Blocks(theme=gr.Theme.load(theme), title="MSST WebUI") as webui:
+def app(platform, device, force_cpu, theme="tools/themes/theme_sonic.json"):
+	with gr.Blocks(theme=gr.Theme.load(theme), title="MSST WebUI Colab!") as webui:
 		gr.Markdown(value=f"""### Music-Source-Separation-Training-Inference-Webui v{PACKAGE_VERSION}""")
 		gr.Markdown(
 			value=i18n(
