@@ -1,6 +1,8 @@
 __license__ = "AGPL-3.0"
 __author__ = "Sucial https://github.com/SUC-DriverOld"
 
+__modder__= "NeoDev https://github.com/TheNeodev"
+
 """
 This file is responsible for initializing and launching the WebUI for the project. It performs multiple setup tasks,
 including configuring system paths, setting up multiprocessing, verifying the existence of necessary directories,
